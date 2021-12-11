@@ -753,6 +753,7 @@ section{
         font-weight: 800;
     }
 
+
     .footer{
         grid-template-rows: repeat(7, 100px);
     }
@@ -766,15 +767,20 @@ section{
     }
 
     .leftside{
+        grid-template-columns: 100%;
+        grid-row:4 / 4;
         text-align: center;
-        grid-row:4;
-        /* grid-column: 3; */
+        padding-left: 60px;
+        justify-content: center;
     }
+
     
     .bottomf{
+        padding-left: 60px;
         grid-row:5;
         text-align: center;
     }
+
 
     .copy{
         display:none;    
